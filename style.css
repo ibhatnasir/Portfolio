@@ -1,9 +1,9 @@
 * {
-  background-color: #17153b;
+  background-color: #0e0c36;
+
   margin: 0px;
   padding: 0%;
   color: #e7f2ef;
-  
 }
 
 @media (max-width: 430px) {
@@ -21,18 +21,19 @@
   justify-content: flex-start;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  margin : -20px;
+  margin: -20px;
   z-index: 100;
   width: 100%;
   position: fixed;
   border-bottom: #c8acd6 2px solid;
   padding: 15px;
   padding-left: 40px;
-
+  background-color: #080d2b;
 }
 
 #navBar div {
   margin-right: 20px;
+  background-color: #080d2b;
 }
 
 #buttons {
@@ -51,7 +52,9 @@
   font-weight: bolder;
   border: 2px solid #c8acd6;
   margin-left: 10px;
+  margin-right: 15px;
   justify-content: end;
+  background-color: #080d2b;
 }
 
 #navBar button:hover {
@@ -62,18 +65,9 @@
   box-shadow: 2px 2px 5px rgb(192, 180, 192);
 }
 
-#frontEnd {
-  font-size: 30px;
-  text-align: start;
-  margin: 5px;
+#frontEnd h1 {
+  background-color: #080d2b;
   cursor: pointer;
-  animation: both 2s ease-in-out;
-}
-#navBar h1 :hover {
-  color: #c8acd6;
-  cursor: pointer;
-  border: 2px solid #c8acd6;
-  padding: 5px;
 }
 
 /* Home Section Styles */
@@ -106,7 +100,6 @@
 
 #tagLine p {
   font-size: 25px;
-  
 }
 
 #tagLine i {
@@ -119,7 +112,7 @@
   height: 300px;
   width: 300px;
   border-radius: 150px;
-  background-image:url(images/IMG_20251206_114630.JPG);
+  background-image: url(images/IMG_20251206_114630.JPG);
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 20px 5px #c8acd6;
@@ -163,7 +156,7 @@ hr {
 #downloadBtns button i {
   margin-right: 0px;
   background-color: transparent;
-  font-size: 25px;
+  font-size: 20px;
   color: inherit;
 }
 
@@ -173,7 +166,6 @@ hr {
   color: rgb(5, 41, 70);
   cursor: pointer;
   box-shadow: 2px 2px 5px rgb(192, 180, 192);
-  transform: skew(5deg);
 }
 
 /* About Section Styles */
@@ -197,9 +189,8 @@ hr {
   text-align: justify;
   line-height: 1.6;
   padding: 30px;
-  box-shadow: 2px 3px 3px 3px #c8acd6 ;
-
-
+  box-shadow: 2px 3px 3px 3px #c8acd6;
+  background-color: #17153b;
 }
 
 /* Education Section Styles */
@@ -210,30 +201,25 @@ hr {
   text-align: start;
   margin: 30px;
   margin-left: 100px;
-
 }
 
-
 #educationSection h3 {
-    font-size: 20px;
-    font-weight: bolder;
-    padding: 30px;
- 
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 30px;
 }
 
 #educationSection h2 {
-   font-size: 40px;
+  font-size: 40px;
   margin-bottom: 20px;
   font-weight: bolder;
 }
 
-.study{
+.study {
   border: none;
-  box-shadow: 2px 3px 3px 3px #c8acd6 ;
+  box-shadow: 2px 3px 3px 3px #c8acd6;
   width: 90%;
-  
-  
-  
+  border-radius: 20px;
 }
 
 #educationSection p {
@@ -244,13 +230,91 @@ hr {
   font-size: 20px;
 }
 
-#studyContainer{
+#studyContainer {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
   flex-direction: column;
   margin-top: 20px;
-  
 }
 
+/* Skills Section */
+
+.skills h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 30px;
+  margin-left: 100px;
+}
+
+.skills ul {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 35px;
+  justify-content: space-around;
+  align-items: start;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  gap: 15px;
+  width: 350px;
+  font-size: xx-large;
+  border-radius: 20px;
+  box-shadow: 2px 3px 3px 3px #c8acd6;
+}
+
+#skillSection {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+
+#Languages {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-color: #c8acd6;
+  text-transform: uppercase;
+}
+
+/* Project Section */
+
+#projectSection h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 30px;
+  margin-left: 100px;
+}
+
+/* Contact Section */
+
+#contactSection h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 30px;
+  margin-left: 100px;
+}
+
+.contactMe {
+  margin-left: 100px;
+  font-size: xx-large;
+  margin-bottom: 60px;
+  padding: 20px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 3px 3px #c8acd6;
+}
+
+#footer {
+
+  background-color: #080d2b;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+#footer p {
+  background-color: #080d2b;
+}

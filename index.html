@@ -18,8 +18,8 @@
   <body>
     <header>
       <div id="navBar">
-        <div>
-          <h1>Front-End</h1>
+        <div id="frontEnd">
+          <h1>PORTFOLIO</h1>
         </div>
         <div id="buttons">
           <button>Home</button>
@@ -40,15 +40,12 @@
             <p>
               <b>Nasir Ahmad Bhat </b> <br />
               <br />I'm a dedicated <i>Front-End Developer </i> focused on
-              crafting modern,<br />
-              responsive, and high-quality web interfaces...
+              <br />
+              <span id="element"></span>
             </p>
             <div id="downloadBtns">
-              <label>
-                <button>
-                  GitHub <i class="fa-brands fa-square-github"></i>
-                </button>
-              </label>
+              <button>GitHub <i class="fa-brands fa-square-github"></i></button>
+
               <button>LinkedIn<i class="fa-brands fa-linkedin"></i></button>
               <button class="resume">
                 Resume<i class="fa-solid fa-circle-arrow-down"></i>
@@ -62,8 +59,10 @@
       <hr />
       <br />
 
+      <!-- About section -->
+
       <section id="aboutSection">
-        <h2>About Me</h2>
+        <h2>About Me <i class="fa-regular fa-address-card"></i></h2>
         <p>
           I am Nasir Ahmad Bhat, a passionate Front-End Developer dedicated to
           creating engaging, modern, and user-friendly web experiences. With a
@@ -94,34 +93,112 @@
 
       <hr />
 
+      <!-- Education Setction -->
+
       <section id="educationSection">
-        <h2>Education</h2>
+        <h2>Education <i class="fa-solid fa-book-open-reader"></i></h2>
 
         <div id="studyContainer">
           <div class="study">
             <h3>
-              <i class="fa-solid fa-graduation-cap"></i> <br>Bachelor of Computer
-              Applications
+              <i class="fa-solid fa-graduation-cap"></i> <br />Bachelor of
+              Computer Applications
             </h3>
-            
-            <p> <b> >> </b> Indira Gandhi National Open University</p>
+
+            <p><b> >> </b> Indira Gandhi National Open University</p>
           </div>
           <div class="study">
             <h3>
-              <i class="fa-solid fa-graduation-cap"></i> <br>Higher Secondary
+              <i class="fa-solid fa-graduation-cap"></i> <br />Higher Secondary
               Certificate
             </h3>
-            <p> <b> >> </b>Fazil Kashmiri Memorial Govt.HSS Chandilora Tangmargy</p>
+            <p>
+              <b> >> </b>Fazil Kashmiri Memorial Govt.HSS Chandilora Tangmarg
+            </p>
           </div>
           <div class=""></div>
         </div>
       </section>
 
-      <hr>
+      <hr />
 
-      
+      <!-- Skills section -->
+
+      <section id="skillSection">
+        <div class="skills">
+          <h2>Skills <i class="fa-solid fa-arrow-trend-up"></i></h2>
+          <ul>
+            <b id="Languages">languages</b>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skills">
+          <ul>
+            <b id="Languages">TOOLS</b>
+            <li>GitHub</li>
+            <li>VS Code</li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+
+      <hr />
+
+      <!-- Porjects Section -->
+
+      <section id="projectSection">
+        <h2>Projects <i class="fa-solid fa-baby-carriage"></i></h2>
+      </section>
+
+      <!-- Contact Section -->
+
+      <hr />
+
+      <section id="contactSection">
+        <h2>Contact <i class="fa-regular fa-address-book"></i></h2>
+        <div class="contactMe">
+          <p>
+            <i class="fa-solid fa-phone"></i> : 9682631078 <br /><br />
+            <i class="fa-regular fa-envelope"></i> : ibhatnasir@gmail.com
+          </p>
+          <div id="downloadBtns">
+            <button>GitHub <i class="fa-brands fa-square-github"></i></button>
+            <br />
+            <button>LinkedIn<i class="fa-brands fa-linkedin"></i></button>
+          </div>
+        </div>
+      </section>
     </main>
 
+    <hr>
+
+    <footer id="footer">
+      <p>Buit with HTML , CSS , and JavaScript</p>
+    </footer>
+
     <script src="script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Element to contain animated typing -->
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "crafting modern,",
+          "responsive,",
+          "and high-quality,",
+          "web interfaces...",
+        ],
+        typeSpeed: 50, 
+      });
+    </script>
   </body>
 </html>
