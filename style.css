@@ -6,12 +6,7 @@
   color: #e7f2ef;
 }
 
-@media (max-width: 430px) {
-  * {
-    zoom: 80%;
-    background-color: greenyellow;
-  }
-}
+
 
 /* // Navigation Bar Styles */
 
