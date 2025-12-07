@@ -3,7 +3,7 @@
   margin: 0px;
   padding: 0%;
   color: #e7f2ef;
-  box-sizing: border-box;
+  
 }
 
 @media (max-width: 430px) {
@@ -86,13 +86,14 @@
   height: 500px;
   width: 100%;
   margin: 20px;
-  gap: 50px;
+  gap: 100px;
 }
 
 #tagLine {
   font-size: 25px;
   text-align: start;
   margin-right: 40px;
+  margin-top: 50px;
 }
 
 #tagLine b {
@@ -118,10 +119,11 @@
   height: 300px;
   width: 300px;
   border-radius: 150px;
-  background-image:url()
+  background-image:url(images/IMG_20251206_114630.JPG);
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 20px 5px #c8acd6;
+  margin-top: 85px;
 }
 
 #homeSection {
@@ -194,6 +196,10 @@ hr {
   font-size: 20px;
   text-align: justify;
   line-height: 1.6;
+  padding: 30px;
+  box-shadow: 2px 3px 3px 3px #c8acd6 ;
+
+
 }
 
 /* Education Section Styles */
