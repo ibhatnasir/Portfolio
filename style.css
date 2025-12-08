@@ -33,7 +33,7 @@
   display: flex;
   justify-content: end;
   align-items: end;
-  width: 80%;
+  width: 100%;
 }
 
 #navBar button {
@@ -69,11 +69,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 500px;
   width: 100%;
   margin: 20px;
-  gap: 100px;
+  gap: 40px;
 }
 
 #tagLine {
@@ -288,7 +288,7 @@ hr {
   margin-bottom: 50px;
 }
 
-      /* project1 */
+/* project1 */
 
 .project1 {
   border: none;
@@ -340,8 +340,7 @@ hr {
   box-shadow: 2px 2px 5px rgb(192, 180, 192);
 }
 
-            /* PROJECT2 */
-
+/* PROJECT2 */
 
 .project2 {
   border: none;
@@ -392,9 +391,8 @@ hr {
   cursor: pointer;
   box-shadow: 2px 2px 5px rgb(192, 180, 192);
 }
-       
-        /* PROJECT3 */
 
+/* PROJECT3 */
 
 .project3 {
   border: none;
@@ -481,111 +479,46 @@ hr {
 
 /* ============= TABLETS (max-width: 992px) ============= */
 
-@media (max-width: 992px) {
+@media (min-width: 600px) and (max-width: 1024px) {
   #navBar {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: column;
+    flex-wrap: nowrap;
   }
 
-  #navBar button {
-    flex-wrap: wrap;
+  #buttons {
+    display: flex;
     justify-content: center;
+    align-items: end;
+    width: 90%;
   }
-
-  #frontEnd h1 {
-    flex-wrap: wrap;
-  }
-
-  /* Home Section Styles */
 
   #containerFirst {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  #tagLine {
-    font-size: 25px;
-    text-align: start;
-    margin-right: 40px;
-    margin-top: 50px;
-  }
-
-  #tagLine b {
-    font-size: 50px;
-    padding: 8px;
-    box-shadow: 2px 2px 5px rgb(253, 253, 253);
-    border: none;
-    margin-bottom: 10px;
-  }
-
-  #tagLine p {
-    font-size: 25px;
-  }
-
-  #tagLine i {
-    font-size: 30px;
-    color: #c8acd6;
-    line-height: 3;
-  }
-
-  #profilePic {
-    height: 300px;
-    width: 300px;
-    border-radius: 150px;
-    background-image: url(images/IMG_20251206_114630.JPG);
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 0px 20px 5px #c8acd6;
-    margin-top: 85px;
-  }
-
-  #homeSection {
-    height: 100%;
-    width: 100%;
-    text-align: start;
-  }
-
-  hr {
-    height: 2px;
-    background-color: #2e236c;
-    color: #2e236c;
-    border: none;
-  }
-
-  #downloadBtns {
     display: flex;
-    margin-top: 30px;
-    justify-content: start;
-    align-items: start;
-    gap: 30px;
+    width: 130%;
   }
 
   #downloadBtns button {
+    height: 64px;
+    width: 150px;
+  }
+
+  #aboutSection {
+    height: 100%;
+    width: 100%;
+  }
+
+  #aboutSection p {
+    font-size: x-large;
+  }
+
+  .projectContainer {
     display: flex;
-    padding: 5px;
-    cursor: pointer;
-    border: 2px solid #c8acd6;
-    font-weight: bold;
-    font-size: medium;
-    border-radius: 10px;
-    height: 43px;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
   }
 
-  #downloadBtns button i {
-    margin-right: 0px;
-    background-color: transparent;
-    font-size: 20px;
-    color: inherit;
-  }
-
-  #downloadBtns button:hover {
-    background-color: #c8acd6;
-    transition: 0.3s ease-in-out;
-    color: rgb(5, 41, 70);
-    cursor: pointer;
-    box-shadow: 2px 2px 5px rgb(192, 180, 192);
+  #footer {
+    padding: 20px;
+    width: 130%;
   }
 }
