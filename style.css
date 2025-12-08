@@ -479,7 +479,7 @@ hr {
 
 /* ============= TABLETS (max-width: 992px) ============= */
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media(min-width: 600px) and (max-width: 1023px) {
   #navBar {
     flex-wrap: nowrap;
   }
@@ -493,7 +493,7 @@ hr {
 
   #containerFirst {
     display: flex;
-    width: 130%;
+    width: 100%;
   }
 
   #downloadBtns button {
@@ -519,6 +519,14 @@ hr {
 
   #footer {
     padding: 20px;
-    width: 130%;
+    width: 100%;
+  }
+
+   body {
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
   }
 }
