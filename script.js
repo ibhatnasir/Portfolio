@@ -1,0 +1,47 @@
+document.querySelectorAll(".github").forEach(button => {
+    button.onclick = () => window.open("https://github.com/ibhatnasir", "_blank");
+});
+
+document.querySelectorAll(".linkedin").forEach(button => {
+    button.onclick = () => window.open ("https://www.linkedin.com/in/ibhatnasir/" , "_blank");
+});
+
+let resumeBtn = document.querySelector("#resume");
+
+resumeBtn.onclick = () => {
+    window.open("images/Blank resume.pdf", "_blank");
+};
+
+
+
+
+function goTo(sectionId) {
+    document.querySelector(sectionId).scrollIntoView({
+        behavior: "smooth"
+    });
+}
+
+// Buttons
+document.querySelector("#homeBtn").onclick = () => goTo("#homeSection");
+document.querySelector("#aboutBtn").onclick = () => goTo("#aboutSection");
+document.querySelector("#eduBtn").onclick = () => goTo("#educationSection");
+document.querySelector("#skillsBtn").onclick = () => goTo("#skillSection");
+document.querySelector("#projBtn").onclick = () => goTo("#projectSection");
+document.querySelector("#contBtn").onclick = () => goTo("#contactSection");
+
+
+
+let navButtons = document.querySelectorAll("#buttons button");
+
+navButtons.forEach(button => {
+  button.addEventListener("click", () => {
+
+    // remove active class from all buttons
+    navButtons.forEach(b => b.classList.remove("nav-active"));
+
+    // add active class to clicked button
+    button.classList.add("nav-active");
+
+  });
+});
+

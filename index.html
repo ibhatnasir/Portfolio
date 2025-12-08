@@ -22,12 +22,12 @@
           <h1>PORTFOLIO</h1>
         </div>
         <div id="buttons">
-          <button>Home</button>
-          <button>About Me</button>
-          <button>Education</button>
-          <button>Skills</button>
-          <button>Projects</button>
-          <button>Contact</button>
+          <button id="homeBtn">Home</button>
+          <button id="aboutBtn">About Me</button>
+          <button id="eduBtn">Education</button>
+          <button id="skillsBtn">Skills</button>
+          <button id="projBtn">Projects</button>
+          <button id="contBtn">Contact</button>
           <!-- <button id="modeBtn"> Mode </button> -->
         </div>
       </div>
@@ -39,14 +39,14 @@
           <div id="tagLine">
             <p>
               <b>Nasir Ahmad Bhat </b> <br />
-              <br />I'm a dedicated <i>Front-End Developer </i> focused on
-              <br />
+              <br />I'm a dedicated <i>Front-End Developer </i> focused <br />on
+
               <span id="element"></span>
             </p>
             <div id="downloadBtns">
-              <button>GitHub <i class="fa-brands fa-square-github"></i></button>
-              <button>LinkedIn<i class="fa-brands fa-linkedin"></i></button>
-              <button class="resume">
+              <button  class="github">GitHub <i class="fa-brands fa-square-github"></i></button>
+              <button class="linkedin">LinkedIn<i class="fa-brands fa-linkedin"></i></button>
+              <button id="resume">
                 Resume<i class="fa-solid fa-circle-arrow-down"></i>
               </button>
             </div>
@@ -57,10 +57,12 @@
       </section>
       <hr />
       <br />
+      <br>
 
       <!-- About section -->
 
       <section id="aboutSection">
+        
         <h2>About Me <i class="fa-regular fa-address-card"></i></h2>
         <p>
           I am Nasir Ahmad Bhat, a passionate Front-End Developer dedicated to
@@ -149,29 +151,29 @@
       <!-- Porjects Section -->
 
       <section id="projectSection">
-        <h2>Projects <i class="fa-solid fa-baby-carriage"></i></h2>
+        <h2>Projects <i class="fa-regular fa-share-from-square"></i></h2>
 
         <div class="projectContainer">
           <div class="project1">
             <div class="img">
               <h3>Amazon clone</h3>
               <img src="images/amazon_logo.png" />
-              <button>view more</button>
+              <button>view Project</button>
             </div>
           </div>
           <div class="project2">
             <div class="img">
-              <h3> Tic Toe Tac</h3>
+              <h3>Tic Toe Tac</h3>
               <img src="images/Screenshot 2025-12-08 123542.jpg" />
-              <button>view more</button>
+              <button>view Project</button>
             </div>
           </div>
-          <br>
+          <br />
           <div class="project3">
             <div class="img">
               <h3>Calculator</h3>
               <img src="images/amazon_logo.png" />
-              <button>view more</button>
+              <button>view Project</button>
             </div>
           </div>
         </div>
@@ -189,9 +191,9 @@
             <i class="fa-regular fa-envelope"></i> : ibhatnasir@gmail.com
           </p>
           <div id="downloadBtns">
-            <button>GitHub <i class="fa-brands fa-square-github"></i></button>
+            <button class="github">GitHub <i class="fa-brands fa-square-github"></i></button>
             <br />
-            <button>LinkedIn<i class="fa-brands fa-linkedin"></i></button>
+            <button class="linkedin">LinkedIn<i class="fa-brands fa-linkedin"></i></button>
           </div>
         </div>
       </section>
@@ -219,7 +221,8 @@
           "crafting modern,",
           "responsive,",
           "and high-quality,",
-          "web interfaces...", "responsive,and high-quality web interfaces..."
+          "web interfaces...",
+          "responsive,and high-quality web interfaces...",
         ],
         typeSpeed: 50,
       });

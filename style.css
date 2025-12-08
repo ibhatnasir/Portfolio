@@ -58,6 +58,13 @@
   box-shadow: 2px 2px 5px rgb(192, 180, 192);
 }
 
+.nav-active {
+  background-color: #c8acd6 !important;
+  color: rgb(5, 41, 70) !important;
+  box-shadow: 2px 2px 5px rgb(192, 180, 192);
+}
+
+
 #frontEnd h1 {
   background-color: #080d2b;
   cursor: pointer;
@@ -165,7 +172,7 @@ hr {
 
 #aboutSection {
   height: 100%;
-  width: 80%;
+  width: 60%;
   text-align: start;
   margin: 30px;
   margin-left: 80px;
@@ -475,6 +482,12 @@ hr {
   background-color: #080d2b;
 }
 
+
+section {
+    scroll-margin-top: 100px; 
+}
+
+
 /* media qurie for responsive web page */
 
 /* ============= TABLETS (max-width: 992px) ============= */
@@ -503,7 +516,7 @@ hr {
 
   #aboutSection {
     height: 100%;
-    width: 100%;
+    width: 80%;
   }
 
   #aboutSection p {
