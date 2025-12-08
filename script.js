@@ -45,3 +45,7 @@ navButtons.forEach(button => {
   });
 });
 
+
+document.querySelectorAll("#gameApp").forEach(button => {
+    button.onclick = () => window.open ("https://ibhatnasir.github.io/App.js/" , "_blank");
+});
