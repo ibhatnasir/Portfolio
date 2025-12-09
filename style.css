@@ -111,7 +111,7 @@
   height: 300px;
   width: 300px;
   border-radius: 150px;
-  background-image: url(ProjectFiles/IMG_20251206_114630.JPG);
+  background-image: url(projectfiles/IMG_20251206_114630.JPG);
   background-size: cover;
   background-position: center;
   box-shadow: 0px 0px 20px 5px #c8acd6;
@@ -332,6 +332,7 @@ hr {
   font-size: medium;
   border-radius: 10px;
   height: 43px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   background-color: #1e1b4f;
@@ -548,12 +549,12 @@ section {
   }
 
   .project1 {
-    width: 400px;
+    width: 450px;
   }
 
   .img img {
     height: 280px;
-    width: 360px;
+    width: 410px;
   }
 
   .img h3 {
@@ -610,4 +611,12 @@ section {
   }
 }
 
+/* for moblie screen */
 
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  
+}
