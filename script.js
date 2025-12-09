@@ -9,7 +9,7 @@ document.querySelectorAll(".linkedin").forEach(button => {
 let resumeBtn = document.querySelector("#resume");
 
 resumeBtn.onclick = () => {
-    window.open("images/Blank resume.pdf", "_blank");
+    window.open("ProjectFiles/Blank resume.pdf", "_blank");
 };
 
 
@@ -49,3 +49,10 @@ navButtons.forEach(button => {
 document.querySelectorAll("#gameApp").forEach(button => {
     button.onclick = () => window.open ("https://ibhatnasir.github.io/App.js/" , "_blank");
 });
+
+
+let amazonBtn = document.querySelector("#amazonClone");
+
+amazonBtn.onclick = () => {
+    window.open("ProjectFiles/Amazon clone/amazonclone.html", "_blank");
+};
