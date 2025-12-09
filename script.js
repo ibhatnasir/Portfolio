@@ -9,7 +9,7 @@ document.querySelectorAll(".linkedin").forEach(button => {
 let resumeBtn = document.querySelector("#resume");
 
 resumeBtn.onclick = () => {
-    window.open("projectfiles/Blank resume.pdf", "_blank");
+    window.open("ProjectFiles/Blank resume.pdf", "_blank");
 };
 
 
