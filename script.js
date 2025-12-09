@@ -54,5 +54,5 @@ document.querySelectorAll("#gameApp").forEach(button => {
 let amazonBtn = document.querySelector("#amazonClone");
 
 amazonBtn.onclick = () => {
-    window.open("ProjectFiles/Amazon clone/amazonclone.html", "_blank");
+    window.open("Amazon clone/amazonclone.html", "_blank");
 };
