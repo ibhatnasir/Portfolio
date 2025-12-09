@@ -64,7 +64,6 @@
   box-shadow: 2px 2px 5px rgb(192, 180, 192);
 }
 
-
 #frontEnd h1 {
   background-color: #080d2b;
   cursor: pointer;
@@ -318,7 +317,6 @@ hr {
 .img img {
   height: 250px;
   width: 310px;
-
   display: flex;
   justify-content: center;
   margin: 20px 0px;
@@ -482,19 +480,25 @@ hr {
   background-color: #080d2b;
 }
 
-
 section {
-    scroll-margin-top: 100px; 
+  scroll-margin-top: 100px;
 }
-
 
 /* media qurie for responsive web page */
 
 /* ============= TABLETS (max-width: 992px) ============= */
 
-@media(min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 600px) and (max-width: 1023px) {
+  body {
+    overflow-x: hidden;
+  }
+
   #navBar {
-    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
     position: fixed;
   }
 
@@ -502,17 +506,27 @@ section {
     display: flex;
     justify-content: center;
     align-items: end;
-    width: 90%;
+    width: 100%;
   }
 
   #containerFirst {
-    display: flex;
-    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 780px;
+    margin: 20px;
   }
 
   #downloadBtns button {
     height: 64px;
     width: 150px;
+  }
+
+  #tagLine {
+    font-size: 25px;
+    text-align: start;
+    margin-right: 5px;
+    margin-top: 30px;
   }
 
   #aboutSection {
@@ -525,18 +539,69 @@ section {
   }
 
   .projectContainer {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #projectSection h2 {
+    font-size: 60px;
+  }
+
+  .project1 {
+    width: 400px;
+  }
+
+  .img img {
+    height: 280px;
+    width: 360px;
+  }
+
+  .img h3 {
+    font-size: xxx-large;
+  }
+
+  #skillSection {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 20px;
+  }
+
+  .skills h2 {
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 30px;
+    margin-left: 100px;
+  }
+
+  .skills ul {
+    padding: 50px;
+    margin-left: 110px;
+    width: 450px;
+    font-size: xxx-large;
+    gap: 30px;
+  }
+
+  #educationSection p {
+    font-size: 30px;
+  }
+
+  #educationSection h2 {
+    font-size: 65px;
+  }
+
+  #educationSection h3 {
+    font-size: 35px;
+  }
+
+  .study {
+    width: 600px;
   }
 
   #footer {
     padding: 20px;
-    width: 100%;
+    width:102%;
   }
 
-   body {
+  body {
     overflow-x: hidden;
   }
 
@@ -544,3 +609,5 @@ section {
     box-sizing: border-box;
   }
 }
+
+
