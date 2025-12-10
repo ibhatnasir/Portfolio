@@ -4,6 +4,7 @@
   padding: 0px;
   color: #e7f2ef;
   box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* // Navigation Bar Styles */
@@ -13,7 +14,6 @@
   align-items: center;
   justify-content: flex-start;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   top: 0;
   left: 0;
@@ -96,6 +96,7 @@
   box-shadow: 2px 2px 5px rgb(253, 253, 253);
   border: none;
   margin-bottom: 10px;
+  justify-content: center;
 }
 
 #tagLine p {
@@ -424,7 +425,7 @@ section {
     padding: 15px;
     flex-wrap: wrap;
     position: fixed;
-    width: 100%;
+    width: 100vh;
     top: 0;
     left: 0;
     margin-left: 2px;
@@ -543,6 +544,24 @@ section {
 
 @media (max-width: 767px) {
   body {
-    overflow-x: hidden;
+    overflow-x:visible;
+    width: 100vh;
+    
+  }
+
+  #navBar{
+  
+    
+  }
+
+  #aboutSection{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+ #aboutSection p {
+    font-size:medium;
+    justify-content: center;
+    width: 100%;
   }
 }
