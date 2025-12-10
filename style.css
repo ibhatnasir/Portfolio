@@ -7,9 +7,7 @@
   box-sizing: border-box;
 }
 
-
 /* // Navigation Bar Styles */
-
 
 #navBar {
   display: flex;
@@ -362,7 +360,6 @@ hr {
   background-color: #1e1b4f;
 }
 
-
 /* PROJECT3 */
 
 .project3 {
@@ -373,7 +370,6 @@ hr {
   display: flex;
   background-color: #1e1b4f;
 }
-
 
 /* Contact Section */
 
@@ -420,6 +416,7 @@ section {
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
+    justify-content: center;
   }
 
   #navBar {
@@ -472,8 +469,9 @@ section {
   }
 
   .projectContainer {
-    justify-content: center;
     flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
   }
 
   #projectSection h2 {
