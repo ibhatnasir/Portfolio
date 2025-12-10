@@ -412,7 +412,7 @@ section {
 
 /* ============= TABLETS (max-width: 992px) ============= */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   body {
     overflow-x: hidden;
     margin: 0px;
@@ -472,20 +472,20 @@ section {
   .projectContainer {
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 100px;
+    margin-left: 60px;
   }
 
   #projectSection h2 {
-    font-size: 60px;
-  }
-
-  .project1 {
-    width: 450px;
+    font-size: 70px;
   }
 
   .img img {
-    height: 280px;
-    width: 410px;
+    height: auto;
+    width: 56vh;
+  }
+
+  .project1 {
+    width: 60vh;
   }
 
   .img h3 {
@@ -590,14 +590,10 @@ section {
     height: auto;
     width: 80vh;
   }
-
-  
-
-    .study {
-      width: 75vh;
-        height: auto;
+  .study {
+    width: 75vh;
+    height: auto;
   }
-
 
   #educationSection p {
     font-size: 40px;
