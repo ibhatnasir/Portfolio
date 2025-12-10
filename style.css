@@ -4,9 +4,11 @@
   padding: 0px;
   color: #e7f2ef;
   box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  font-family: "Times New Roman", Times, serif;
+}
 /* // Navigation Bar Styles */
 
 #navBar {
@@ -528,7 +530,7 @@ section {
 
   #footer {
     padding: 20px;
-    width: 102%;
+    width: 100%;
   }
 
   body {
@@ -544,24 +546,91 @@ section {
 
 @media (max-width: 767px) {
   body {
-    overflow-x:visible;
+    overflow-x: visible;
     width: 100vh;
-    
   }
 
-  #navBar{
-  
-    
-  }
-
-  #aboutSection{
+  #navBar {
     display: flex;
-    flex-direction: column-reverse;
-    width: 90%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
   }
- #aboutSection p {
-    font-size:medium;
+
+  body {
+    width: 100vh;
+  }
+
+  #containerFirst {
+    flex-direction: column-reverse;
+    align-items: center;
     justify-content: center;
-    width: 100%;
+    height: 800px;
+    width: 100vh;
+    margin: 20px;
+  }
+
+  #aboutSection p {
+    font-size: x-large;
+    width: 85vh;
+    height: auto;
+  }
+
+  .projectContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60px;
+  }
+
+  #projectSection h2 {
+    font-size: 70px;
+  }
+
+  .img img {
+    height: auto;
+    width: 80vh;
+  }
+
+  #studyContainer {
+    width: 80dvh;
+    height: auto;
+  }
+
+  #educationSection p {
+    font-size: 40px;
+  }
+  #educationSection h2 {
+    font-size: 70px;
+  }
+
+  #educationSection h3 {
+    font-size: 48px;
+    padding: 32px;
+  }
+
+  #skillSection {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skills h2 {
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 30px;
+    margin-left: 100px;
+  }
+
+  .skills ul {
+    padding: 50px;
+    margin-left: 110px;
+    width: 450px;
+    font-size: xxx-large;
+    gap: 30px;
+  }
+
+  #footer {
+    padding: 20px;
+    width: 100vh;
+    height: auto;
   }
 }
