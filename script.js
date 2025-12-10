@@ -1,8 +1,8 @@
-document.querySelectorAll(".github").forEach(button => {
+let Github = document.querySelectorAll(".github").forEach(button => {
     button.onclick = () => window.open("https://github.com/ibhatnasir", "_blank");
 });
 
-document.querySelectorAll(".linkedin").forEach(button => {
+let Linkedin = document.querySelectorAll(".linkedin").forEach(button => {
     button.onclick = () => window.open ("https://www.linkedin.com/in/ibhatnasir/" , "_blank");
 });
 
