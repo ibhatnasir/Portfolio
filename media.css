@@ -2,7 +2,7 @@
 
 /* ============= TABLETS (max-width: 992px) ============= */
 
-/* @media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   body {
     overflow-x: hidden;
     margin: 0px;
@@ -132,9 +132,9 @@
   }
 }
 
-/* for moblie screen */
+/* for moblie screen
 
-/* @media  (max-width: 767px) {
+@media  (max-width: 767px) {
   body {
     overflow-x: visible;
     width: 100vh;
@@ -222,4 +222,4 @@
     width: 100vh;
     height: auto;
   }
-}  */
+} 
