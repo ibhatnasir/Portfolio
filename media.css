@@ -134,7 +134,7 @@
 
 /* for moblie screen */
 
-@media (max-width: 767px) {
+/* @media  (max-width: 767px) {
   body {
     overflow-x: visible;
     width: 100vh;
@@ -222,4 +222,4 @@
     width: 100vh;
     height: auto;
   }
-} 
+}  */
