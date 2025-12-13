@@ -296,6 +296,7 @@ hr {
   gap: 10px;
   margin: 10px;
   margin-bottom: 50px;
+  margin-left: 80px;
 }
 
 /* project1 */
@@ -407,4 +408,3 @@ hr {
 section {
   scroll-margin-top: 100px;
 }
-
