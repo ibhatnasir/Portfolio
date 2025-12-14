@@ -36,6 +36,8 @@
     justify-content: center;
     height: 780px;
     margin: 20px;
+    width: 90% ;
+
   }
 
   #downloadBtns button {
@@ -55,6 +57,13 @@
     width: 80%;
   }
 
+
+   #aboutSection h2 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+
   #aboutSection p {
     font-size: x-large;
   }
@@ -70,15 +79,9 @@
   }
 
   .img img {
-    height: auto;
-    width: 56vh;
+    height: 33vh;
+        width: 55vh;
   }
-
-  .project1 {
-    width: 60vh;
-    height: 50vh;
-  }
-
   .img h3 {
     font-size: xxx-large;
   }
@@ -117,6 +120,12 @@
 
   .study {
     width: 600px;
+  }
+
+   #contact h2 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bolder;
   }
 
   #footer {
@@ -161,20 +170,20 @@
     justify-content: center;
     height: 800px;
     width: 90vh;
-    margin: 20px;
+    margin:20px 0px 20px 60px;
   }
-
 
   #aboutSection h2 {
     font-size: 65px;
     margin-bottom: 20px;
     font-weight: bolder;
   }
-  
+
   #aboutSection p {
     font-size: x-large;
-    width: 85vh;
+    width: 78vh;
     height: auto;
+    line-height: normal;
   }
 
   .projectContainer {
@@ -210,8 +219,11 @@
   #educationSection p {
     font-size: 40px;
   }
+ 
   #educationSection h2 {
-    font-size: 70px;
+    font-size: 55px;
+    margin-bottom: 40px;
+    font-weight: bolder;
   }
 
   #educationSection h3 {
@@ -237,6 +249,13 @@
     width: 450px;
     font-size: xxx-large;
     gap: 30px;
+  }
+
+  
+  #contactSection h2 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bolder;
   }
 
   #footer {
