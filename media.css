@@ -72,6 +72,7 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 40px;
+    max-width: 90%;
   }
 
   #projectSection h2 {
@@ -81,6 +82,7 @@
   .img img {
     height: 33vh;
         width: 55vh;
+        max-width: 100%;
   }
   .img h3 {
     font-size: xxx-large;
