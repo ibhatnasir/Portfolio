@@ -145,6 +145,7 @@
 /* for moblie screen */
 
 @media (max-width: 767px) {
+
   body {
     overflow-x: hidden;
     width: 100vh;
@@ -158,10 +159,6 @@
     overflow-x: hidden;
     left: 0;
     right: 0;
-  }
-
-  body {
-    width: 100vh;
   }
 
   #containerFirst {
