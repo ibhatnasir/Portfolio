@@ -164,6 +164,13 @@
     margin: 20px;
   }
 
+
+  #aboutSection h2 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+  
   #aboutSection p {
     font-size: x-large;
     width: 85vh;
