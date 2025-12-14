@@ -147,7 +147,7 @@
     height: auto;
     flex-direction: column;
     overflow-x: hidden;
-     left: 0;
+    left: 0;
     right: 0;
   }
 
@@ -160,7 +160,7 @@
     align-items: center;
     justify-content: center;
     height: 800px;
-    width: 100vh;
+    width: 90vh;
     margin: 20px;
   }
 
@@ -181,50 +181,50 @@
   }
 
   .img img {
-    width: 130vw;
-    height: 100vw;
+    width: 90vw;
+    height: 50vw;
   }
 
-.study {
-  width: 75vh;
-  height: auto;
-}
+  .study {
+    width: 75vh;
+    height: auto;
+  }
 
-#educationSection p {
-  font-size: 40px;
-}
-#educationSection h2 {
-  font-size: 70px;
-}
+  #educationSection p {
+    font-size: 40px;
+  }
+  #educationSection h2 {
+    font-size: 70px;
+  }
 
-#educationSection h3 {
-  font-size: 48px;
-  padding: 32px;
-}
+  #educationSection h3 {
+    font-size: 48px;
+    padding: 32px;
+  }
 
-#skillSection {
-  display: flex;
-  flex-wrap: wrap;
-}
+  #skillSection {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.skills h2 {
-  font-size: 80px;
-  font-weight: bolder;
-  margin: 30px;
-  margin-left: 100px;
-}
+  .skills h2 {
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 30px;
+    margin-left: 100px;
+  }
 
-.skills ul {
-  padding: 50px;
-  margin-left: 110px;
-  width: 450px;
-  font-size: xxx-large;
-  gap: 30px;
-}
+  .skills ul {
+    padding: 50px;
+    margin-left: 110px;
+    width: 450px;
+    font-size: xxx-large;
+    gap: 30px;
+  }
 
-#footer {
-  padding: 20px;
-  width: 100vh;
-  height: auto;
-}
+  #footer {
+    padding: 20px;
+    width: 100vh;
+    height: auto;
+  }
 }
