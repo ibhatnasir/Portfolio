@@ -1,0 +1,30 @@
+/*media for moblile */
+@media only screen and (max-width: 600px) {
+
+    #tagLine {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #cityInput {
+        width: 180px;
+        font-size: 16px;
+        height: 30px;
+    }
+    #iconBtn {
+        width: 30px;
+        height: 30px;
+    }
+    #iconBtn img {
+        width: 70%;
+        height: 70%;
+    }
+    .weatherDetails h2, .windDetails h2 {
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .humidityDetails , .windDetails {
+        margin: -10px;
+    }
+}

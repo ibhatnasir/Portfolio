@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather.com</title>
+    <link rel="stylesheet" href="weather.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <h1 id="tagLine">Weather</h1>
+    <div class="navBar">
+      <input
+        type="text"
+        placeholder="City name"
+        spellcheck="false"
+        id="cityInput"
+        required
+      />
+      <button id="iconBtn">
+        <img src="Assets/search.png" />
+      </button>
+    </div>
+
+    <div class="weather">
+      <img src="Assets/snow.png" id="weatherIcon" />
+      <h1 id="temp">0°C</h1>
+      <h1 id="cities">Enter City</h1>
+    </div>
+
+    <div class="weatherDetails">
+
+      <div class="humidityDetails">
+        <img src="Assets/humidity.png" />
+        <h2 id="humidity">Humidity: 0%</h2>
+      </div>
+
+      <br>
+
+      <div class="windDetails">
+        <img src="Assets/wind.png" />
+        <h2 id="wind">Wind: 0km/h</h2>
+      </div>
+
+    </div>
+
+    <script src="weather.js"></script>
+  </body>
+</html>
