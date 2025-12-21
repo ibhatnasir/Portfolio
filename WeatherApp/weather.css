@@ -14,8 +14,8 @@ html {
 body {
   background: linear-gradient(135deg , #00feba , #5b548a);
   color: #fff;
-  width: 400px;
-  margin: 50px;
+  width: 350px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   flex-direction: column;
