@@ -51,8 +51,8 @@ document.querySelectorAll("#gameApp").forEach(button => {
 });
 
 
-// let amazonBtn = document.querySelector("#amazonClone");
+let weatherBtn = document.querySelector("#weatherApp");
 
-// amazonBtn.onclick = () => {
-//     window.open("Amazon clone/amazonclone.html", "_blank");
-// };
+weatherBtn.onclick = () => {
+    window.open("WeatherApp/weather.html", "_blank");
+};
